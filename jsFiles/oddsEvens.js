@@ -58,7 +58,6 @@ var oddsEvens = (function () {
       // play 1 or 2 and compare hands
       options.forEach(option => {
         option.addEventListener("click", function() {
-          console.log(cChoicesOne, cChoicesTwo)
           game.data.totalTrials++;                                              // increment total trials
           document.getElementById("one").disabled = true;                       // disable one button
           document.getElementById("two").disabled = true;                       // disable two button
