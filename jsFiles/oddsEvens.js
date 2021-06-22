@@ -38,7 +38,7 @@ var oddsEvens = (function () {
       hands.forEach(hand => {
         hand.addEventListener("animationend", function() {
           this.style.animation = "";
-          if (game.data.totalTrials < (totalRounds-1)) {
+          if (game.data.totalTrials < totalRounds) {
             document.getElementById("one").disabled = false;                     // enable one button
             document.getElementById("two").disabled = false;                     // enable two button
           };
