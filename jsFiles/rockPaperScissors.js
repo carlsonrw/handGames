@@ -9,7 +9,7 @@ var rockPaperScissors = (function () {
     cScore: 0,                // opponent score
     pChoices: [],             // player choices
     cChoices: [],             // opponent choices
-    myGameMode: undefined,    // player is odds or evens
+    myGameMode: "null",    // player is odds or evens
     totalTrials: 0,           // total trials
   };
 
