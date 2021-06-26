@@ -123,16 +123,16 @@ var exp = (function() {
     </p>
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Scissors</p>
                 <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#2E157F'>Scissors</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
                 <div style='height:80px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Paper</p>
                 <img src='assets/paperGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
             </div>
         </div>
 
@@ -147,16 +147,16 @@ var exp = (function() {
     </p>
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Paper</p>
                 <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
                 <div style='height:80px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Rock</p>
                 <img src='assets/rockGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
             </div>
         </div>
 
@@ -170,16 +170,16 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Rock</p>
                 <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>DRAW</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>Rock</p>
                 <img src='assets/rockGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
             </div>
         </div>
 
@@ -257,16 +257,16 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
                 <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold'; color:#2E157F>You</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>ODDS<br>WINS</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>2</p>
                 <img src='assets/twoGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold'; color:#4D4D4D>Opponent</p>
             </div>
         </div>
 
@@ -279,16 +279,16 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
                 <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold'; color:#2E157F>You</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>EVENS<br>WINS</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
                 <img src='assets/oneGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold'; color:#4D4D4D>You</p>
             </div>
         </div>
 
