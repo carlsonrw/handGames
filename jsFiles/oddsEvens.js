@@ -85,7 +85,9 @@ var oddsEvens = (function () {
             }
 
             // compare hands
-            compareHands(this.textContent, computerChoice);           
+            setTimeout(() => {
+              compareHands(this.textContent, computerChoice);
+            }, 1000)
 
             // update images
             const dig = {1: "one", 2: "two"};                         // array of image names

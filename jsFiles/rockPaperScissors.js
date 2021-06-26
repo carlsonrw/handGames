@@ -83,7 +83,9 @@ var rockPaperScissors = (function () {
             }
 
             // compare hands
-            compareHands(this.textContent, computerChoice);
+            setTimeout(() => {
+              compareHands(this.textContent, computerChoice);
+            }, 1000)
 
             // update images
             playerHand.src = `./assets/${this.textContent}Purple.png`;      // set player hand to selected number
