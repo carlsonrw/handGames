@@ -70,15 +70,15 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', class='player-hand', style='width: 200px'>
+                <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', class='player-hand', style='width: 200px'>
+                <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
             </div>
         </div>
 
@@ -100,7 +100,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
@@ -108,7 +108,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', style='width: 200px'>
+                <img src='assets/scissorsGrey.png', style='width: 200px'>
             </div>
         </div>
 
@@ -124,7 +124,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', class='player-hand', style='width: 200px'>
+                <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
@@ -132,7 +132,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', style='width: 200px'>
+                <img src='assets/paperGrey.png', style='width: 200px'>
             </div>
         </div>
 
@@ -148,7 +148,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', class='player-hand', style='width: 200px'>
+                <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
@@ -156,7 +156,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', style='width: 200px'>
+                <img src='assets/rockGrey.png', style='width: 200px'>
             </div>
         </div>
 
@@ -171,7 +171,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>DRAW</p>
@@ -179,7 +179,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', style='width: 200px'>
+                <img src='assets/rockGrey.png', style='width: 200px'>
             </div>
         </div>
 
@@ -240,11 +240,11 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>2</p>
-                <img src='assets/two.png', class='player-hand', style='width: 200px'>
+                <img src='assets/twoPurple.png', class='player-hand', style='width: 200px'>
             </div>
         </div>
 
@@ -258,7 +258,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>ODDS<br>WINS</p>
@@ -266,7 +266,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>2</p>
-                <img src='assets/two.png', style='width: 200px'>
+                <img src='assets/twoGrey.png', style='width: 200px'>
             </div>
         </div>
 
@@ -280,7 +280,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>EVENS<br>WINS</p>
@@ -288,7 +288,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', style='width: 200px'>
+                <img src='assets/oneGrey.png', style='width: 200px'>
             </div>
         </div>
 

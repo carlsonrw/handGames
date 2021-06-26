@@ -52,8 +52,8 @@ jsPsych.plugins["odds-evens"] = (function () {
               <button class=IAmEven id=IAmEven onclick="gametime()">Evens</button>
             </div> 
             <div id="hands" class="hands">
-              <img class="player-hand" src="./assets/rock.png" alt="" />
-              <img class="computer-hand" src="./assets/rock.png" alt="" />
+              <img class="player-hand" src="./assets/rockPurple.png" alt="" />
+              <img class="computer-hand" src="./assets/rockGrey.png" alt="" />
             </div>
             <div id="player-names" class="player-names">
               <h2 style='color:#2E157F'>You</h2>
