@@ -39,8 +39,10 @@ var oddsEvens = (function () {
         hand.addEventListener("animationend", function() {
           this.style.animation = "";
           if (game.data.totalTrials < totalRounds) {
-            document.getElementById("one").disabled = false;                     // enable one button
-            document.getElementById("two").disabled = false;                     // enable two button
+            setTimeout(() => {
+              document.getElementById("one").disabled = false;                     // enable one button
+              document.getElementById("two").disabled = false;                     // enable two button
+            }, 1000);
           };
         });
       });    

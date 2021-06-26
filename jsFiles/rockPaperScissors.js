@@ -38,9 +38,11 @@ var rockPaperScissors = (function () {
         hand.addEventListener("animationend", function() {
           this.style.animation = "";
           if (game.data.totalTrials < totalRounds) {
-            document.getElementById("rock").disabled = false;                   // enable rock button
-            document.getElementById("paper").disabled = false;                  // enable paper button
-            document.getElementById("scissors").disabled = false;               // enable scissors button
+            setTimeout(() => {
+              document.getElementById("rock").disabled = false;                   // enable rock button
+              document.getElementById("paper").disabled = false;                  // enable paper button
+              document.getElementById("scissors").disabled = false;               // enable scissors button
+            }, 1000);
           };
         });
       });    
