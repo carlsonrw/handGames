@@ -61,7 +61,7 @@ var oddsEvens = (function () {
           game.data.totalTrials++;                                              // increment total trials
           document.getElementById("one").disabled = true;                       // disable one button
           document.getElementById("two").disabled = true;                       // disable two button
-          playerHand.src = `./assets/rock.png`;                                 // set player hand to "rock"
+          playerHand.src = `./assets/rockBlue.png`;                                 // set player hand to "rock"
           computerHand.src = `./assets/rock.png`;                               // set computer hand to "rock"
           document.querySelector(".winner").style.visibility = "hidden";        // hide win/loss feedback
           document.querySelector(".winnerScore").style.visibility = "hidden";   // hide point feedback
@@ -89,7 +89,7 @@ var oddsEvens = (function () {
 
             // update images
             const dig = {1: "one", 2: "two"};                         // array of image names
-            playerHand.src = `./assets/${dig[this.textContent]}.png`; // set player hand to selected number
+            playerHand.src = `./assets/${dig[this.textContent]}Blue.png`; // set player hand to selected number
             computerHand.src = `./assets/${computerChoice}.png`;      // set computer hand to computer choice
           }, 1500);
 

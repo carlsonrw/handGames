@@ -52,7 +52,7 @@ var rockPaperScissors = (function () {
           document.getElementById("rock").disabled = true;                      // disable rock button
           document.getElementById("paper").disabled = true;                     // disable paper button
           document.getElementById("scissors").disabled = true;                  // disable scissors button
-          playerHand.src = `./assets/rock.png`;                                 // set player hand to "rock"
+          playerHand.src = `./assets/rockBlue.png`;                                 // set player hand to "rock"
           computerHand.src = `./assets/rock.png`;                               // set computer hand to "rock"
           document.querySelector(".winner").style.visibility = "hidden";        // hide win/loss feedback
           document.querySelector(".winnerScore").style.visibility = "hidden";   // hide point feedback
@@ -86,7 +86,7 @@ var rockPaperScissors = (function () {
             compareHands(this.textContent, computerChoice);
 
             // update images
-            playerHand.src = `./assets/${this.textContent}.png`;      // set player hand to selected number
+            playerHand.src = `./assets/${this.textContent}Blue.png`;      // set player hand to selected number
             computerHand.src = `./assets/${computerChoice}.png`;      // set computer hand to computer choice
           }, 1500);
 
