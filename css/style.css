@@ -112,11 +112,11 @@ section {
 .match button {
   width: 150px;
   height: 50px;
+  background: none;
   border: none;
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-weight: bold;
-  background: rgb(102, 107, 108);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -126,11 +126,11 @@ section {
   margin-top: 8px;
   width: 150px;
   height: 50px;
+  background: none;
   border: none;
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-weight: bold;
-  background: #021A8C;
   border-radius: 3px;
   cursor: pointer;
 }
