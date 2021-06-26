@@ -53,8 +53,8 @@ jsPsych.plugins["rock-paper-scissors"] = (function () {
               <img class="computer-hand" src="./assets/rock.png" alt="" />
             </div>
             <div id="player-names" class="player-names">
-              <h2>You</h2>
-              <h2>Opponent</h2>
+              <h2 style='color:#2E157F'>You</h2>
+              <h2 style='color:#4D4D4D'>Opponent</h2>
             </div>
           </div>
         </div>
