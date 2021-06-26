@@ -129,10 +129,10 @@ section {
   height: 50px;
   background: none;
   border: none;
-  color: #021A8C;
+  color: rgb(224, 224, 224);
   font-size: 20px;
   font-weight: bold;
-  background: rgb(102, 107, 108);
+  background: #021A8C;
   border-radius: 3px;
   cursor: pointer;
 }
