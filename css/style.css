@@ -112,7 +112,6 @@ section {
 .match button {
   width: 150px;
   height: 50px;
-  background: none;
   border: none;
   color: rgb(224, 224, 224);
   font-size: 20px;
@@ -127,7 +126,6 @@ section {
   margin-top: 8px;
   width: 150px;
   height: 50px;
-  background: none;
   border: none;
   color: rgb(224, 224, 224);
   font-size: 20px;
