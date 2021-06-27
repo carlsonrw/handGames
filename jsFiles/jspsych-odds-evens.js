@@ -84,16 +84,15 @@ jsPsych.plugins["odds-evens"] = (function () {
         jsPsych.pluginAPI.cancelKeyboardResponse(keyboardListener);
       }
 
-      // gather the data to store for the trial
-      var trial_data = {
-        "pScore": oddsEvens.data.pScore,
-        "cScore": oddsEvens.data.cScore,
-        "pChoices": oddsEvens.data.pChoices,
-        "cChoices": oddsEvens.data.cChoices,
-        "myGameMode": oddsEvens.data.myGameMode,
-      };
-
       setTimeout(function () {
+        // gather the data to store for the trial
+        var trial_data = {
+          "pScore": oddsEvens.data.pScore,
+          "cScore": oddsEvens.data.cScore,
+          "pChoices": oddsEvens.data.pChoices,
+          "cChoices": oddsEvens.data.cChoices,
+          "myGameMode": oddsEvens.data.myGameMode,
+        };
         display_element.innerHTML = '';
         document.body.classList.add("jspsych-display-element");
 
