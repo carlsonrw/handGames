@@ -578,7 +578,7 @@ var exp = (function() {
         var gender = {
             type: 'html-button-response',
             stimulus: '<p>Gender:</p>',
-            choices: ['Male', 'Female', 'Other'],
+            choices: ['Male', 'Female', 'Other', 'Prefer not to answer'],
         };
         var age = {
             type: 'survey-text',
@@ -587,7 +587,7 @@ var exp = (function() {
         var ethnicity = {
             type: 'html-button-response',
             stimulus: '<p>Ethnicity:</p>',
-            choices: ['White / Caucasian', 'Black / African American','Asian / Pacific Islander', 'Hispanic', 'Native American', 'Other'],
+            choices: ['White / Caucasian', 'Black / African American','Asian / Pacific Islander', 'Hispanic', 'Native American', 'Other', 'Prefer not to answer'],
         };
         var english = {
             type: 'html-button-response',
