@@ -116,7 +116,7 @@ section {
   color: rgb(224, 224, 224);
   font-size: 20px;
   font-weight: bold;
-  background: rgb(102, 107, 108);
+  background: #2E157F;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -206,6 +206,11 @@ section {
 
 .player-hand {
   transform: rotateY(180deg);
+  width: 250px;
+}
+
+.computer-hand {
+  width: 250px;
 }
 
 div.fadeOut {

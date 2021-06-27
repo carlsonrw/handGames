@@ -109,7 +109,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p style='margin:0; font-weight:bold'>Rock</p>
                 <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
@@ -118,7 +118,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <img src='assets/scissorsGrey.png', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p style='margin:0; font-weight:bold'>Scissors</p>
                 <p>&nbsp;</p>
             </div>
         </div>
@@ -135,7 +135,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p style='margin:0; font-weight:bold'>Scissors</p>
                 <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
@@ -144,7 +144,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <img src='assets/paperGrey.png', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p style='margin:0; font-weight:bold'>Paper</p>
                 <p>&nbsp;</p>
             </div>
         </div>
@@ -161,7 +161,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p style='margin:0; font-weight:bold'>Paper</p>
                 <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
@@ -170,7 +170,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <img src='assets/rockGrey.png', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p style='margin:0; font-weight:bold'>Rock</p>
                 <p>&nbsp;</p>
             </div>
         </div>
@@ -186,7 +186,7 @@ var exp = (function() {
         <div style='text-align: center'>
             <div style='display: inline-block'>
                 <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p style='margin:0; font-weight:bold'>Rock</p>
                 <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
@@ -195,7 +195,7 @@ var exp = (function() {
             </div>
             <div style='display: inline-block'>
                 <img src='assets/rockGrey.png', style='width: 200px'>
-                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p style='margin:0; font-weight:bold'>Rock</p>
                 <p>&nbsp;</p>
             </div>
         </div>

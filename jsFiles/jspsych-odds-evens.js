@@ -56,8 +56,8 @@ jsPsych.plugins["odds-evens"] = (function () {
               <img class="computer-hand" src="./assets/rockGrey.png" alt="" />
             </div>
             <div id="player-names" class="player-names">
-              <h2 style='color:#2E157F'>You</h2>
-              <h2 style='color:#4D4D4D'>Opponent</h2>
+              <h2 style='color:#2E157F; font-weight:bold'>You</h2>
+              <h2 style='color:#4D4D4D; font-weight:bold'>Opponent</h2>
             </div>
           </div>
         </div>
