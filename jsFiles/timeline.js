@@ -59,6 +59,12 @@ var exp = (function() {
 
     </div>`; 
 
+    var goodbye = `<div class='instructions' style='text-align: center'>
+
+    <p>Thank you for playing! Please answer a few final questions to receive payment.</p>
+
+    </div>`; 
+
     // rock paper scissors intro
     var rpsPage1 = `<div class='instructions'>
 
@@ -69,16 +75,19 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -99,16 +108,18 @@ var exp = (function() {
     </p>
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
                 <div style='height:80px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/scissorsGrey.png', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -123,16 +134,18 @@ var exp = (function() {
     </p>
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/scissorsPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Scissors</p>
-                <img src='assets/scissors.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
                 <div style='height:80px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/paperGrey.png', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -147,16 +160,18 @@ var exp = (function() {
     </p>
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/paperPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Paper</p>
-                <img src='assets/paper.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>>>>>><br>BEATS<br>>>>>></p>
                 <div style='height:80px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/rockGrey.png', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -170,16 +185,18 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/rockPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>DRAW</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/rockGrey.png', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>Rock</p>
-                <img src='assets/rock.png', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -239,12 +256,14 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
+                <img src='assets/twoPurple.png', class='player-hand', style='width: 200px'>
                 <p style='margin:0; font-weight:bold'>2</p>
-                <img src='assets/two.png', class='player-hand', style='width: 200px'>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -257,16 +276,18 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>ODDS<br>WINS</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>2</p>
-                <img src='assets/two.png', style='width: 200px'>
+                <img src='assets/twoGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -279,16 +300,18 @@ var exp = (function() {
 
         <div style='text-align: center'>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', class='player-hand', style='width: 200px'>
+                <img src='assets/onePurple.png', class='player-hand', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#2E157F'>You</p>
+                <p>&nbsp;</p>
             </div>
             <div style='display: inline-block'>
                 <p style='margin:0; font-weight:bold'>EVENS<br>WINS</p>
                 <div style='height:100px; display:inline-block'></div>
             </div>
             <div style='display: inline-block'>
-                <p style='margin:0; font-weight:bold'>1</p>
-                <img src='assets/one.png', style='width: 200px'>
+                <img src='assets/oneGrey.png', style='width: 200px'>
+                <p style='margin:0; font-weight:bold; color:#4D4D4D'>Opponent</p>
+                <p>&nbsp;</p>
             </div>
         </div>
 
@@ -361,6 +384,12 @@ var exp = (function() {
     p.inst.oeGetReady = {
         type: "instructions",
         pages: [oePage6],
+        show_clickable_nav: true,
+    };
+
+    p.inst.goodbye = {
+        type: "instructions",
+        pages: [goodbye],
         show_clickable_nav: true,
     };
 
@@ -458,7 +487,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Rock, Paper, Scissors</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you choose rock and your opponent chooses scissors, what will happen?", name: 'attnChk_rps_1', required: true, options: [
+            {prompt: "If <strong>you choose rock</strong> and your <strong>opponent chooses scissors</strong>, what will happen?", name: 'attnChk_rps_1', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund.", 
             "We will <span class='drawText'>draw</span>, and <span class='drawText'>0 cents</span> will be added to my bonus fund."]},   
@@ -471,7 +500,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Rock, Paper, Scissors</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you choose paper and your opponent chooses scissors, what will happen?", name: 'attnChk_rps_2', required: true, options: [
+            {prompt: "If <strong>you choose paper</strong> and your <strong>opponent chooses scissors</strong>, what will happen?", name: 'attnChk_rps_2', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund.", 
             "We will <span class='drawText'>draw</span>, and <span class='drawText'>0 cents</span> will be added to my bonus fund."]}, 
@@ -484,7 +513,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Rock, Paper, Scissors</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you choose paper and your opponent chooses paper, what will happen?", name: 'attnChk_rps_3', required: true, options: [
+            {prompt: "If <strong>you choose paper</strong> and your <strong>opponent chooses paper</strong>, what will happen?", name: 'attnChk_rps_3', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund.", 
             "We will <span class='drawText'>draw</span>, and <span class='drawText'>0 cents</span> will be added to my bonus fund."]},   
@@ -497,7 +526,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Odds vs. Evens</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you represent odds, what happens if you choose 2 and your opponent chooses 1?", name: 'attnChk_oe_1', required: true, options: [
+            {prompt: "If you represent <strong>odds</strong>, what happens if <strong>you choose 2</strong> and your <strong>opponent chooses 1</strong>?", name: 'attnChk_oe_1', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund."]},   
         ],
@@ -509,7 +538,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Odds vs. Evens</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you represent odds, what happens if you choose 2 and your opponent chooses 2?", name: 'attnChk_oe_2', required: true, options: [
+            {prompt: "If you represent <strong>odds</strong>, what happens if <strong>you choose 2</strong> and your <strong>opponent chooses 2</strong>?", name: 'attnChk_oe_2', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund."]}, 
         ],
@@ -521,7 +550,7 @@ var exp = (function() {
 
         // <p style='margin:0'>To ensure that you understand the rules of <strong>Odds vs. Evens</strong> please answer the following question:</p>`,
         questions: [
-            {prompt: "If you represent evens, what happens if you choose 2 and your opponent chooses 2?", name: 'attnChk_oe_3', required: true, options: [
+            {prompt: "If you represent <strong>evens</strong>, what happens if <strong>you choose 2</strong> and your <strong>opponent chooses 2</strong>?", name: 'attnChk_oe_3', required: true, options: [
             "I will <span class='winText'>win</span>, and <span class='winText'>3 cents</span> will be added to my bonus fund.", 
             "I will <span class='loseText'>lose</span>, and <span class='loseText'>1 cent</span> will be subtracted from my bonus fund."]},   
         ],
@@ -536,6 +565,16 @@ var exp = (function() {
     };
 
     p.Qs.demographics = (function() {
+        var oeFamiliar = {
+            type: 'html-button-response',
+            stimulus: '<p>Have you ever played Odds vs. Evens in real life?</p>',
+            choices: ['Yes', 'No'],
+        };  
+        var rpsFamiliar = {
+            type: 'html-button-response',
+            stimulus: '<p>Have you ever played Rock, Paper, Scissors in real life?</p>',
+            choices: ['Yes', 'No'],
+        };  
         var gender = {
             type: 'html-button-response',
             stimulus: '<p>Gender:</p>',
@@ -552,20 +591,30 @@ var exp = (function() {
         };
         var english = {
             type: 'html-button-response',
-            stimulus: '<p>Is English your native language?:</p>',
+            stimulus: '<p>Is English your native language?</p>',
             choices: ['Yes', 'No'],
         };  
         var finalWord = {
             type: 'survey-text',
             questions: [{prompt: "Questions? Comments? Complains? Provide your feedback here!", rows: 10, columns: 100, name: "finalWord"}],
-        }; 
+        };
         var email = {
             type: 'survey-text',
             questions: [{prompt: "", placeholder: "Prolific ID", name: "PID", columns: 50, required: true}],
             button_label: ['CLICK HERE TO FINISH'], 
+            preamble: function() {
+                var rpsTotalCents = (rockPaperScissors.data.pScore*3) - rockPaperScissors.data.cScore;
+                var oeTotalCents = (oddsEvens.data.pScore*3) - oddsEvens.data.cScore;
+                var totalCents = rpsTotalCents + oeTotalCents;
+                var totalDollars = totalCents/100;
+                console.log(totalCents, totalDollars);
+                return `<p>Thank you for participating!</p><p>In total, you won <b>$${totalDollars}</b> in bonus money!
+                <br>Within one week, you will receive your bonus money. Your $1.50 for participating will be delivered immediately.</p>
+                <p>To receive payment, enter your Prolific ID in the space below.</p>`
+            },
         };
         var demos = {
-            timeline: [gender, age, ethnicity, english, finalWord, email]
+            timeline: [oeFamiliar, rpsFamiliar, gender, age, ethnicity, english, finalWord, email]
         };
 
         return demos;
@@ -602,6 +651,7 @@ if (exp.data.order == 0) {
     exp.inst.oeGetReady,
     exp.tasks.oddsEvens,
     exp.Qs.oe,
+    exp.inst.goodbye,
     exp.Qs.demographics,
     ];
 } else if (exp.data.order == 1) {
@@ -622,6 +672,7 @@ if (exp.data.order == 0) {
     exp.inst.rpsGetReady,
     exp.tasks.rockPaperScissors,
     exp.Qs.rps,
+    exp.inst.goodbye,
     exp.Qs.demographics,
     ];
 }
