@@ -83,11 +83,11 @@ jsPsych.plugins["rock-paper-scissors"] = (function () {
 
       // gather the data to store for the trial
       var trial_data = {
-        "pScore": oddsEvens.data.pScore,
-        "cScore": oddsEvens.data.cScore,
-        "pChoices": oddsEvens.data.pChoices,
-        "cChoices": oddsEvens.data.cChoices,
-        "myGameMode": oddsEvens.data.myGameMode,
+        "pScore": rockPaperScissors.data.pScore,
+        "cScore": rockPaperScissors.data.cScore,
+        "pChoices": rockPaperScissors.data.pChoices,
+        "cChoices": rockPaperScissors.data.cChoices,
+        "myGameMode": rockPaperScissors.data.myGameMode,
       };
 
       // clear the display
