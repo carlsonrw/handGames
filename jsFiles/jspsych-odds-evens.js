@@ -99,7 +99,7 @@ jsPsych.plugins["odds-evens"] = (function () {
 
         // move on to the next trial
         jsPsych.finishTrial(trial_data); 
-      }, 3000)
+      }, 3500)
 
     };
 
