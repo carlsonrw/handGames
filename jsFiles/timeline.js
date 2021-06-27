@@ -685,6 +685,6 @@ jsPsych.init({
            data: jsPsych.data.get().values()
         });
         document.body.innerHTML = '<p><p><p align="center">Thank you for participating in the study!<p align="center"><b>You will be automatically re-directed to Prolific in a few moments.</b></p>';
-        setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=81140C6A" }, 5000);
+        setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=865BE374" }, 5000);
    }
 });
