@@ -99,19 +99,14 @@ jsPsych.plugins["odds-evens"] = (function () {
 
         // move on to the next trial
         jsPsych.finishTrial(trial_data); 
-      }, 2000)
+      }, 3000)
 
     };
 
     // listen for last trial of slingshot game
-    var listenForLastTrial = setInterval(function () { if (oddsEvens.data.totalTrials == trial.total_rounds) end_trial() }, 200)
-
-    // end trial if trial_duration is set
-    // if (trial.trial_duration !== null) {
-    //   jsPsych.pluginAPI.setTimeout(function () {
-    //     end_trial();
-    //   }, trial.trial_duration);
-    // };
+    var listenForLastTrial = setInterval(function () { 
+      if (oddsEvens.data.totalTrials == trial.total_rounds) end_trial();
+    }, 200);
 
   };
 

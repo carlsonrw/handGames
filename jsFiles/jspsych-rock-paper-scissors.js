@@ -98,13 +98,13 @@ jsPsych.plugins["rock-paper-scissors"] = (function () {
 
         // move on to the next trial
         jsPsych.finishTrial(trial_data); 
-      }, 2000)
+      }, 3000)
 
     };
 
     // listen for last trial of slingshot game
     var listenForLastTrial = setInterval(function () { 
-      if (rockPaperScissors.data.totalTrials == trial.total_rounds) end_trial() 
+      if (rockPaperScissors.data.totalTrials == trial.total_rounds) end_trial(); 
     }, 200)
 
   };
