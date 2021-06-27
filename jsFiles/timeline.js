@@ -679,13 +679,12 @@ if (exp.data.order == 0) {
 
 // initiate timeline
 jsPsych.init({
-    timeline: timeline,
-    on_finish: function() {
-        firebase.database().ref(firebase.auth().currentUser.uid).set({
-            data: jsPsych.data.get().values()}).then(window.location.replace("https://app.prolific.co/submissions/complete?cc=81140C6A"))
-    },
-    // on_close: function() { 
-    //     firebase.database().ref(firebase.auth().currentUser.uid).set({
-    //         data: jsPsych.data.get().values()}).then(window.location.replace("https://app.prolific.co/submissions/complete?cc=81140C6A"))
-    // },
+   timeline: timeline,
+   on_finish: function() {
+       firebase.database().ref(firebase.auth().currentUser.uid).set({
+           data: jsPsych.data.get().values()
+        });
+        document.body.innerHTML = '<p><p><p align="center">Thank you for participating in the study!<p align="center"><b>You will be automatically re-directed to Prolific in a few moments.</b></p>';
+        setTimeout(function () { location.href = "https://app.prolific.co/submissions/complete?cc=81140C6A" }, 5000);
+   }
 });
